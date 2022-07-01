@@ -1,0 +1,114 @@
+:root {
+    --text-color: black;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    /* background: rgb(238, 174, 202);
+    background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%); */
+}
+
+.container {
+    width: 60rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: aqua; */
+    background: rgb(238,174,202);
+background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    border-radius: 5%;
+    line-height: 5rem;
+
+}
+
+.img img {
+    width: 100%;
+    height: auto;
+}
+
+/* .bag{
+    line-height: 2.5rem;
+} */
+.bag .bag__name {
+    text-transform: uppercase;
+    text-align: left;
+    line-height: 3.5rem;
+}
+
+.bag .bag__name h1 {
+    font-size: 3rem;
+}
+
+.bag .bag__name h3 {
+    font-size: 2rem;
+}
+
+.bag__price {
+    font-size: 2.5rem;
+}
+
+.bag__detail {
+    font-size: 1.5rem;
+    line-height: 2rem;
+}
+
+.bag__color {
+    display: flex;
+}
+
+.bag__color div {
+    width: 2rem;
+    height: 2rem;
+    margin: 0.5rem;
+}
+
+.bag__color--black {
+    background-color: black;
+    border: 2px solid grey;
+    
+}
+
+.bag__color--red {
+    background-color: red;
+    border: 2px solid grey;
+}
+
+.button {
+
+    text-transform: uppercase;
+    font-size: 2rem;
+    font-weight: 300;
+    border: 2px solid black;
+    color: white;
+    border-radius: 3rem;
+    padding: 0.5rem;
+    text-decoration: none;
+    background-color: black;
+    margin: 5rem;
+    text-align: center;
+}
+
+.button:hover {
+    background-color: white;
+    color: black;
+    transition-delay: 0s;
+    transition-duration: 0.4s;
+    transition-property: all;
+    transition-timing-function: ease;
+}
+
