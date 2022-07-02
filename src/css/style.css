@@ -29,25 +29,27 @@ body {
     justify-content: center;
     align-items: center;
     /* background-color: aqua; */
-    background: rgb(238,174,202);
-background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    background: rgb(238, 174, 202);
+    background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
     border-radius: 5%;
     line-height: 5rem;
 
 }
 
 .img img {
-    width: 100%;
+    width: 22rem;
     height: auto;
 }
 
-/* .bag{
-    line-height: 2.5rem;
-} */
+.bag {
+    line-height: 5rem;
+}
+
 .bag .bag__name {
     text-transform: uppercase;
     text-align: left;
     line-height: 3.5rem;
+    margin-top: 5rem;
 }
 
 .bag .bag__name h1 {
@@ -79,13 +81,14 @@ background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 
 
 .bag__color--black {
     background-color: black;
-    border: 2px solid grey;
-    
+    border: 0.3rem solid grey;
+    border-radius: 0.1rem;
 }
 
 .bag__color--red {
     background-color: red;
-    border: 2px solid grey;
+    border: 0.3rem solid grey;
+    border-radius: 0.1rem;
 }
 
 .button {
@@ -94,21 +97,20 @@ background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 
     font-size: 2rem;
     font-weight: 300;
     border: 2px solid black;
-    color: white;
+    color: black;
     border-radius: 3rem;
     padding: 0.5rem;
     text-decoration: none;
-    background-color: black;
+    background-color: white;
     margin: 5rem;
     text-align: center;
 }
 
 .button:hover {
-    background-color: white;
-    color: black;
+    background-color: black;
+    color: white;
     transition-delay: 0s;
     transition-duration: 0.4s;
     transition-property: all;
     transition-timing-function: ease;
 }
-
